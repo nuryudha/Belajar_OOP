@@ -29,8 +29,8 @@ public class Main {
         System.out.println(mahasiswa1.umur);
         
         Mahasiswa mahasiswa2 = new Mahasiswa();
-        mahasiswa2.nama = "otong";
-        mahasiswa2.NIM = "13305042";
+        mahasiswa2.nama = "ucup";
+        mahasiswa2.NIM = "13305041";
         mahasiswa2.jurusan = "teknik perteknikan";
         mahasiswa2.IPK = 3.5;
         mahasiswa2.umur = 32;
@@ -40,5 +40,6 @@ public class Main {
         System.out.println(mahasiswa2.jurusan);
         System.out.println(mahasiswa2.IPK);
         System.out.println(mahasiswa2.umur);
+        
     }
 }

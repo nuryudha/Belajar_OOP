@@ -2,38 +2,41 @@ package com.tutorial;
 
 // class tanpa constructor / class polos
 class Polos{
-    String dataString;
+    String dataString ;
     int dataInteger;
 }
 
 // class dengan constructor
 class Mahasiswa{
-    String nama;
-    String NIM;
-    String jurusan;
+    String Nama;
+    String Nim;
+    String Jurusan;
 
-    // constructor dipanggil saat object pertama kali dibuat
+    // ini adalah constructor saat object pertama kali dibuat
     // Mahasiswa(){
-    //     System.out.println("ini adalah constructor");
+    //     System.out.println("ini adalah Constructor");
     // }
 
-    // constructor dengan parameter
-    Mahasiswa(String inputNama, String inputNIM, String inputJurusan){
-        nama = inputNama;
-        NIM = inputNIM;
-        jurusan = inputJurusan;
+    //constructor dengan paramter
+    Mahasiswa(String inputNama, String inputNim, String inputJurusan){
+        Nama = inputNama;
+        Nim = inputNim;
+        Jurusan = inputJurusan;
 
-        System.out.println(nama);
-        System.out.println(NIM);
-        System.out.println(jurusan);
+        System.out.println("perkenalkan " + Nama);
+        System.out.println(Nim);
+        System.out.println(Jurusan);
     }
 }
 
 public class Main {
     public static void main(String[] args) throws Exception {
+
+        Mahasiswa mahasiswa1 = new Mahasiswa("ucup","1100","teknik");
+        Mahasiswa mahasiswa2 = new Mahasiswa("otong","110","Teknik Tel");
         
-        Mahasiswa mahasiswa1 = new Mahasiswa("ucup","13305041","teknik perteknikan");
-        Mahasiswa mahasiswa2 = new Mahasiswa("otong","13305042","teknik pertambangan");
+
+        
         
         // Polos objectPolos = new Polos();
         // objectPolos.dataString = "polos";
